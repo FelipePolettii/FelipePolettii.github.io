@@ -1,0 +1,16 @@
+.card-project{
+    display: inline-block;
+    justify-content: center;
+    background-color: black;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 yellow;
+}
+
+.card-project.-white{
+    background-color: white;
+}
+
+.card-project.-red{
+    box-shadow:10px 10px 0 #F04B40;
+}

@@ -1,4 +1,4 @@
-.header{
+.main-header{
     display:flex;
     justify-content: space-between;
     background-image:linear-gradient(to left, #c36565,#F04B40);

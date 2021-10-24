@@ -1,5 +1,5 @@
 .main-section{
-    background-color: #F04B40;
+    background-color: #314085;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #BABBBF;
@@ -15,4 +15,12 @@
 
 .main-section.-bdFirst{
     border-color:#BABBBF;
+}
+
+.main-section.-bgSobre{
+    background-image:linear-gradient(to left, #1a5362,#4fa4be);
+}
+
+.main-section.-bdSobre{
+    border-color: #BABBBF;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-BR">
         <head>
             <meta charset="UTF-8">
             <title>Meu Site Pessoal</title>
@@ -7,8 +7,8 @@
             <link rel="preconnect" href="https://fonts.gstatic.com"> 
             <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-            <link rel="stylesheet" href="css/components/main-title.css">
             <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/components/main-title.css">
             <link rel="stylesheet" href="css/components/main-header.css">
             <link rel="stylesheet" href="css/components/main-banner.css">
             <link rel="stylesheet" href="css/components/main-section.css">
@@ -22,6 +22,10 @@
             <link rel="stylesheet" href="css/components/wrapper-card.css">
             <link rel="stylesheet" href="css/components/card-project.css">
             <link rel="stylesheet" href="css/components/subtitle-card.css">
+            <link rel="stylesheet" href="css/components/main-description.css">
+            <link rel="stylesheet" href="css/components/main-carousel.css">
+            <link rel="stylesheet" href="css/components/button-arrow.css">
+            <link rel="stylesheet" href="css/components/node-card.css">
         </head>
 
         <body>
@@ -30,9 +34,9 @@
 
                 <nav>
                     <a class="main-action" href="" lang="en">Skills</a>
-                    <a class="main-action" href ="" >Sobre</a>
-                    <a class="main-action" href ="" >Projetos</a>
-                    <a class="main-action" href ="" >Contatos</a>
+                    <a class="main-action" href="" >Sobre</a>
+                    <a class="main-action" href="" >Projetos</a>
+                    <a class="main-action" href="" >Contatos</a>
                     <a class="main-button" href="" Lang="en">Download CV</a>
                 </nav>
             </header>
@@ -156,5 +160,66 @@
                     </a>
                 </div>  
             </section>
+            
+            <section class="main-section -bgSobre -bdSobre">
+                <h2 class="main-title -second">Sobre</h2>   
+
+                <section class="main-carousel">
+                    <button class="button-arrow -left"><span class="content">Esquerda</span></button>
+
+                    <div class="items">
+                        <div class="elements">
+                            <figure class="node-card">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-locaweb.png" alt="logo da localweb">
+                                    </div>
+                            </figure>
+
+                            <figure class="node-card -clean">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-caelum.png" alt="logo da Caelum">
+                                    </div>
+                            </figure>
+
+                            <figure class="node-card -first">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-getninjas.png" alt="logo da getninjas">
+                                    </div>
+                            </figure>
+
+                            <figure class="node-card -clean">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-caelum.png" alt="logo da Caelum">
+                                    </div>
+                            </figure>
+
+                            <figure class="node-card">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-impulso.png" alt="logo da Impulso">
+                                    </div>
+                            </figure>
+
+                            <figure class="node-card -first">
+                                <figcaption class="title">2021</figcaption>
+                                    <div class="logo">
+                                        <img src="img/logo-collabcode.png" alt="logo da Collabcode">
+                                    </div>
+                            </figure>
+                        </div>  
+                    </div>
+                    
+                    <button class="button-arrow -right"><span class="content">Direita</span></button>
+                </section>
+                <p class="main-description">
+                    Meu Nome é Felipe Poletti e sou "desenvolvedor" FrontEnd, estudando né, e quero me tornar um bom profissional nessa área.  
+                </p>
+            </section>
+
+            <script src="js/components/main-carousel.js"></script>
         </body>
 </html> 

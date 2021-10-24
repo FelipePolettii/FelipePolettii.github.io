@@ -1,6 +1,6 @@
 .main-box{
     display: inline-block;
-    background-color: #BABBBF;
+    background-image:linear-gradient(to right, #25697a,#c3dae2);
     box-shadow: 10px 10px 4px black;
     text-align: center;
     padding: 42px 44px;

@@ -4,7 +4,7 @@
     background-color: black;
     width: 280px;
     height: 280px;
-    box-shadow: 10px 10px 0 #8b2821;
+    box-shadow: 10px 10px 0 #4fa4be;
 }
 
 .card-project.-white{
@@ -12,5 +12,5 @@
 }
 
 .card-project.-red{
-    box-shadow:10px 10px 0 #F04B40;
+    box-shadow:10px 10px 0 #314085;
 }

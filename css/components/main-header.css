@@ -1,7 +1,7 @@
 .main-header{
     display:flex;
     justify-content: space-between;
-    background-image:linear-gradient(to left, #c36565,#F04B40);
+    background-image:linear-gradient(to left, #17404d,#4fa4be);
     border-bottom: 10px solid black;
     padding: 10px  20px;
 }

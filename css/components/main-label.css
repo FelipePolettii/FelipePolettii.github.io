@@ -1,0 +1,11 @@
+form{
+    background-color: rgb(117, 101, 101);
+}
+
+.main-label{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Fira Code' , 'sans-serif';
+    line-height: 40px;
+}
